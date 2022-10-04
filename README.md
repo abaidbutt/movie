@@ -35,16 +35,6 @@ The application has the following functionalities:
     *   If the search finds no matches, the message 'No Results Found' is displayed instead of the list.
 *   Initially, the Movieslist component and the 'No Results Found' message are not visible.
 
-The following data-testid attributes are required in the component for the tests to pass:
-
-*   The 'No Results Found' header should have the data-testid attribute 'noResult'.
-*   The 'Movie Name' input should have the data-testid attribute 'nameInput'.
-*   The 'Ratings' input should have the data-testid attribute 'ratingsInput'.
-*   The 'Duration' input should have the data-testid attribute 'durationInput'.
-*   The 'Add Movie' button should have the data-testid attribute 'addButton'.
-*   The 'Movies List' should have the data-testid attribute 'moviesList'.
-*   The 'Search' input should have the data-testid attribute 'search'.
-*   The alert error message should have the data-testid attribute 'alert'.
 
 Please note that component has the above data-testid attributes for test cases and certain classes and ids for rendering purposes. It is advised not to change them.
 
